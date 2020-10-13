@@ -1,0 +1,29 @@
+.divContainer {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: auto;
+  height: 100vh;
+  background-color: black;
+}
+/* Right */
+.divRightContainer {
+  position: absolute;
+  /* float: right; */
+  width: 75%;
+  height: 99%;
+  top: 0;
+  right: 0;
+  background-color: white;
+  border: 3px solid blue;
+}
+/* Left */
+.divLeftContainer{
+  position: absolute;
+  /* float: left; */
+  left: 0;
+  width: 25%;
+  height: 100%;
+  top:0;
+  background-image: linear-gradient(115deg, grey, black, grey);
+}

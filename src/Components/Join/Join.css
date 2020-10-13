@@ -1,0 +1,32 @@
+.divOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  width: auto;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.divInner {
+    width: 20%;
+}
+.inputJoin{
+    display: flex;
+    margin-top: 20px;
+    width: 98%;
+    height: 30px;
+    font-size: 10px;
+}
+.btnJoin{
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    border: transparent;
+    background-color: blue;
+    color: white;
+
+}

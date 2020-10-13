@@ -1,0 +1,102 @@
+/* Right */
+.divBoxRight {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: none;
+  bottom: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.divUserRight {
+  position: relative;
+  bottom: 20px;
+  right: 30px;
+  max-width: 50%;
+  min-height: 40px;
+  background-color: none;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.divContentRight {
+  position: absolute;
+  top: 50px;
+  min-width: 25%;
+  max-width: 50%;
+  min-height: 40px;
+  right: 5px;
+  background-color: blue;
+  border-radius: 20px;
+}
+/* Left */
+.divBoxLeft {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: none;
+  bottom: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.divUserLeft {
+  position: relative;
+  bottom: 20px;
+  left: 30px;
+  max-width: 50%;
+  min-height: 40px;
+  background-color: none;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.divContentLeft {
+  position: absolute;
+  top: 50px;
+  min-width: 25%;
+  max-width: 50%;
+  min-height: 40px;
+  left: 5px;
+  background-color:purple;
+  border-radius: 20px;
+}
+/* Center */
+.divBoxCenter {
+  position: relative;
+  width: 100%;
+  height: 55px;
+  top: 5px;
+  background-color: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divContentCenter {
+  position: relative;
+  /* top: 50px; */
+  min-width: 15%;
+  max-width: 50%;
+  min-height: 30px;
+  /* left: 5px; */
+  background-color: red;
+  border-radius: 20px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+  color: white;
+}
